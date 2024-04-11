@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Pokémon Browser</title>
+  <link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+  <header>
+    <img src=https://i.pinimg.com/originals/c7/d7/02/c7d70249300e5473a14ded83c694d242.png width="140" height="150" <h1>
+
+    </h1>
+  </header>
+  <main>
+    <section>
+      <h3>Gotta Catch Em All! Click to add a Pokemon to your team!</h3>
+
+      <div>
+        <p><button id="random">Randomize!</button></p>
+        <p>
+          <input id="name" />
+          <button id="custom">Enter</button>
+        </p>
+      </div>
+      <h4> Your Team</h4>
+      <div id = "team">
+        <figure id="slot1">
+          <p id="name1"></p>
+          <img id = "image1" />
+        </figure>
+        <figure id="slot2">
+          <p id="name2"></p>
+          <img id = "image2"/>
+        </figure>
+        <figure id="slot3">
+          <p id="name3"></p>
+          <img id = "image3" />
+        </figure>
+        <figure id="slot4">
+          <p id="name4"></p>
+          <img id = "image4" />
+        </figure>
+        <figure id="slot5">
+          <p id="name5"></p>
+          <img id = "image5" />
+        </figure>
+        <figure id="slot6">
+          <p id="name6"></p>
+          <img id = "image6" />
+        </figure>
+      </div>
+      <section id="info">
+        <pre></pre>
+        <div id="card">
+          <h2></h2>
+          <img id="cardImage" />
+          <p id="type"></p>
+          <p id="HP"></p>
+          <p id="height"></p>
+          <p id="weight"> </p>
+          <p id="abilityOne"> </p>
+          <p id="abilityTwo"></p>
+          <button id="add">Add to Team</button>
+        </div>
+      </section>
+
+      <pre></pre>
+      <!--- pre: preformatted text --->
+    </section>
+    <dialog id="error">
+      <p>Could not fetch this one</p>
+      <form method="dialog">
+        <button>OK</button>
+      </form>
+    </dialog>
+  </main>
+  <footer>
+  </footer>
+  <script src="index.js"></script>
+</body>
+
+</html>

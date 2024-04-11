@@ -1,0 +1,92 @@
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-rows: min-content auto min-content;
+  }
+  
+  header,
+  footer {
+    text-align: center;
+    background-color: darkblue;
+    color: yellow;
+  }
+  
+  header {
+    margin-top: 0;
+    /* siz */
+  }
+  
+  main {
+    padding: 20px;
+    overflow: scroll;
+    text-align: center;
+  }
+  
+  div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  footer {
+    margin-bottom: 0;
+  }
+  
+  #error::backdrop {
+    backdrop-filter: blur(25px);
+  }
+  
+  #card {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 50px;
+    color: white;
+    background-color: white;
+    border-radius: 5%;
+    text-align: center;
+  }
+  
+  #card img {
+    background-color: white;
+  }
+  
+  
+  #card h2 {
+    text-align: left;
+  }
+  
+  #team {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  #team figure {
+    display: none;
+    background-color: lightgrey;
+    color: black;
+    border: 2px solid darkgray;
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+  }
+  
+  #add {
+    display: none;
+  }
+  
+  figure img {
+    margin-top: -15px; 
+  }
+  
+  figure p {
+    text-shadow: 1px 1px 1px white;
+  }
+  
